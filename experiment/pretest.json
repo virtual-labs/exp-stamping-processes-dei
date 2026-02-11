@@ -1,39 +1,51 @@
-{
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+# Pretest Quiz  
+_Test your knowledge before starting the experiment._
+
+---
+
+## 1. In a blanking operation, the piece removed is considered:
+
+- [ ] Scrap  
+- [ ] The useful part  
+- [ ] Waste material  
+- [ ] None of the above  
+
+---
+
+## 2. The clearance in a shearing operation is the distance between:
+
+- [ ] Punch and Stripper  
+- [ ] Punch cutting edge and Die cutting edge  
+- [ ] Die and Stripper  
+- [ ] Upper and Lower Die shoes  
+
+---
+
+## 3. Cutting force is directly proportional to:
+
+- [ ] Sheet Area  
+- [ ] Sheet Thickness  
+- [ ] Modulus of Elasticity  
+- [ ] Poisson's Ratio  
+
+---
+
+## 4. Which stage comes first in the shearing process?
+
+- [ ] Fracture  
+- [ ] Plastic Deformation  
+- [ ] Penetration  
+- [ ] Elastic Recovery  
+
+---
+
+## 5. Excessive clearance results in:
+
+- [ ] Cleaner cuts  
+- [ ] Reduced force  
+- [ ] Formation of burrs  
+- [ ] Tool breakage  
+
+---
+
+### ✅ Submit Quiz
