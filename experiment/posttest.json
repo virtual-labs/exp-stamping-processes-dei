@@ -2,37 +2,78 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "If material thickness increases, the required force:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Decreases",
+        "b": "Increases",
+        "c": "Remains same"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Cutting force is directly proportional to sheet thickness.",
+        "b": "Correct. As thickness increases, the cutting force increases proportionally.",
+        "c": "Incorrect. Force does not remain constant when thickness changes."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What happens if clearance is too small?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Excessive burr",
+        "b": "Secondary shear / higher force",
+        "c": "Punch breaks immediately"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Excessive burr is usually caused by too large clearance.",
+        "b": "Correct. Small clearance causes secondary shear and increases cutting force.",
+        "c": "Incorrect. While tool wear may increase, immediate punch breakage is unlikely."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Energy consumed is represented by area under:",
+      "answers": {
+        "a": "Stress-Strain Curve",
+        "b": "Force-Displacement Curve",
+        "c": "Load-Time Curve"
+      },
+      "explanations": {
+        "a": "Incorrect. Stress-strain curve represents material properties, not cutting energy directly.",
+        "b": "Correct. The energy consumed in stamping is the area under the force-displacement curve.",
+        "c": "Incorrect. Load-time curve does not represent mechanical work directly."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which material generally requires higher force for same thickness?",
+      "answers": {
+        "a": "Aluminum",
+        "b": "Mild Steel",
+        "c": "Lead"
+      },
+      "explanations": {
+        "a": "Incorrect. Aluminum has lower shear strength than mild steel.",
+        "b": "Correct. Mild steel has higher shear strength and requires greater cutting force.",
+        "c": "Incorrect. Lead is very soft and requires much lower force."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Optimal clearance for soft materials is generally:",
+      "answers": {
+        "a": "Lower than hard materials",
+        "b": "Higher than hard materials",
+        "c": "Same as hard materials"
+      },
+      "explanations": {
+        "a": "Correct. Soft materials require smaller clearance compared to harder materials.",
+        "b": "Incorrect. Hard materials generally require larger clearance.",
+        "c": "Incorrect. Clearance depends on material properties."
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
