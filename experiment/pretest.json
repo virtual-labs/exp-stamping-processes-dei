@@ -1,104 +1,90 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Pretest Quiz</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-        }
-        .quiz-container {
-            width: 600px;
-            margin: 40px auto;
-            background: #ffffff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-        h2 {
-            margin-bottom: 15px;
-        }
-        .question {
-            margin-bottom: 25px;
-        }
-        .options label {
-            display: block;
-            margin-bottom: 8px;
-            cursor: pointer;
-        }
-        button {
-            background-color: #1a73e8;
-            color: white;
-            border: none;
-            padding: 10px 18px;
-            font-size: 14px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        button:hover {
-            background-color: #1558b0;
-        }
-    </style>
-</head>
-<body>
-
-<div class="quiz-container">
-    <form>
-
-        <div class="question">
-            <h2>1. In a blanking operation, the piece removed is considered?</h2>
-            <div class="options">
-                <label><input type="radio" name="q1"> a: Scrap</label>
-                <label><input type="radio" name="q1"> b: The useful part</label>
-                <label><input type="radio" name="q1"> c: Waste material</label>
-                <label><input type="radio" name="q1"> d: None of the above</label>
-            </div>
-        </div>
-
-        <div class="question">
-            <h2>2. The clearance in a shearing operation is the distance between?</h2>
-            <div class="options">
-                <label><input type="radio" name="q2"> a: Punch and Stripper</label>
-                <label><input type="radio" name="q2"> b: Punch cutting edge and Die cutting edge</label>
-                <label><input type="radio" name="q2"> c: Die and Stripper</label>
-                <label><input type="radio" name="q2"> d: Upper and Lower Die shoes</label>
-            </div>
-        </div>
-
-        <div class="question">
-            <h2>3. Cutting force is directly proportional to?</h2>
-            <div class="options">
-                <label><input type="radio" name="q3"> a: Sheet Area</label>
-                <label><input type="radio" name="q3"> b: Sheet Thickness</label>
-                <label><input type="radio" name="q3"> c: Modulus of Elasticity</label>
-                <label><input type="radio" name="q3"> d: Poisson's Ratio</label>
-            </div>
-        </div>
-
-        <div class="question">
-            <h2>4. Which stage comes first in the shearing process?</h2>
-            <div class="options">
-                <label><input type="radio" name="q4"> a: Fracture</label>
-                <label><input type="radio" name="q4"> b: Plastic Deformation</label>
-                <label><input type="radio" name="q4"> c: Penetration</label>
-                <label><input type="radio" name="q4"> d: Elastic Recovery</label>
-            </div>
-        </div>
-
-        <div class="question">
-            <h2>5. Excessive clearance results in?</h2>
-            <div class="options">
-                <label><input type="radio" name="q5"> a: Cleaner cuts</label>
-                <label><input type="radio" name="q5"> b: Reduced force</label>
-                <label><input type="radio" name="q5"> c: Formation of burrs</label>
-                <label><input type="radio" name="q5"> d: Tool breakage</label>
-            </div>
-        </div>
-
-        <button type="submit">Submit Quiz</button>
-
-    </form>
-</div>
-
-</body>
-</html>
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "In a blanking operation, the piece removed is considered?",
+      "answers": {
+        "a": "Scrap",
+        "b": "The useful part",
+        "c": "Waste material",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "Incorrect. In blanking, the removed piece is the desired product.",
+        "b": "Correct. In blanking, the removed piece (blank) is the useful product.",
+        "c": "Incorrect. The removed piece is not waste in blanking; it is the final product.",
+        "d": "Incorrect. One of the options is correct."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The clearance in a shearing operation is the distance between?",
+      "answers": {
+        "a": "Punch and Stripper",
+        "b": "Punch cutting edge and Die cutting edge",
+        "c": "Die and Stripper",
+        "d": "Upper and Lower Die shoes"
+      },
+      "explanations": {
+        "a": "Incorrect. The stripper removes material from the punch but does not define clearance.",
+        "b": "Correct. Clearance is the gap between the punch cutting edge and die cutting edge.",
+        "c": "Incorrect. Clearance is not defined between die and stripper.",
+        "d": "Incorrect. Die shoes support the die assembly but do not determine clearance."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Cutting force is directly proportional to?",
+      "answers": {
+        "a": "Sheet Area",
+        "b": "Sheet Thickness",
+        "c": "Modulus of Elasticity",
+        "d": "Poisson's Ratio"
+      },
+      "explanations": {
+        "a": "Incorrect. Cutting force depends on perimeter, thickness, and shear strength — not total sheet area.",
+        "b": "Correct. Cutting force is directly proportional to sheet thickness.",
+        "c": "Incorrect. Modulus of elasticity affects elastic behavior, not directly the cutting force.",
+        "d": "Incorrect. Poisson's ratio does not directly determine cutting force."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which stage comes first in the shearing process?",
+      "answers": {
+        "a": "Fracture",
+        "b": "Plastic Deformation",
+        "c": "Penetration",
+        "d": "Elastic Recovery"
+      },
+      "explanations": {
+        "a": "Incorrect. Fracture occurs after crack propagation.",
+        "b": "Correct. Plastic deformation is the first stage when the punch contacts the sheet.",
+        "c": "Incorrect. Penetration occurs during deformation but plastic deformation begins first.",
+        "d": "Incorrect. Elastic recovery happens after unloading."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Excessive clearance results in?",
+      "answers": {
+        "a": "Cleaner cuts",
+        "b": "Reduced force",
+        "c": "Formation of burrs",
+        "d": "Tool breakage"
+      },
+      "explanations": {
+        "a": "Incorrect. Cleaner cuts occur at optimum clearance.",
+        "b": "Incorrect. Although force may reduce slightly, it leads to poor edge quality.",
+        "c": "Correct. Excessive clearance causes large burr formation and tapered edges.",
+        "d": "Incorrect. Tool breakage is more commonly associated with insufficient clearance."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
