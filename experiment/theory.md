@@ -2,8 +2,6 @@
 
 ## 1. Introduction to Metal Stamping
 
-## 1. Introduction to Metal Stamping
-
 Metal stamping is a high-speed, cold-forming manufacturing process used to convert flat metal sheets into precise and complex shapes. It involves placing sheet metal, either in blank or coil form, into a stamping press where a punch and die set apply controlled force to cut or form the material into the desired geometry.
 
 The process relies on plastic deformation of the material under compressive forces, allowing the sheet to permanently change shape without melting. Because it is performed at room temperature, it is classified as a cold-working process, which often improves the strength and surface finish of the final component due to strain hardening.
