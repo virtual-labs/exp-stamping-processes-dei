@@ -1,51 +1,104 @@
-# Pretest Quiz  
-_Test your knowledge before starting the experiment._
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pretest Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        .quiz-container {
+            width: 600px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            margin-bottom: 15px;
+        }
+        .question {
+            margin-bottom: 25px;
+        }
+        .options label {
+            display: block;
+            margin-bottom: 8px;
+            cursor: pointer;
+        }
+        button {
+            background-color: #1a73e8;
+            color: white;
+            border: none;
+            padding: 10px 18px;
+            font-size: 14px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #1558b0;
+        }
+    </style>
+</head>
+<body>
 
----
+<div class="quiz-container">
+    <form>
 
-## 1. In a blanking operation, the piece removed is considered:
+        <div class="question">
+            <h2>1. In a blanking operation, the piece removed is considered?</h2>
+            <div class="options">
+                <label><input type="radio" name="q1"> a: Scrap</label>
+                <label><input type="radio" name="q1"> b: The useful part</label>
+                <label><input type="radio" name="q1"> c: Waste material</label>
+                <label><input type="radio" name="q1"> d: None of the above</label>
+            </div>
+        </div>
 
-- [ ] Scrap  
-- [ ] The useful part  
-- [ ] Waste material  
-- [ ] None of the above  
+        <div class="question">
+            <h2>2. The clearance in a shearing operation is the distance between?</h2>
+            <div class="options">
+                <label><input type="radio" name="q2"> a: Punch and Stripper</label>
+                <label><input type="radio" name="q2"> b: Punch cutting edge and Die cutting edge</label>
+                <label><input type="radio" name="q2"> c: Die and Stripper</label>
+                <label><input type="radio" name="q2"> d: Upper and Lower Die shoes</label>
+            </div>
+        </div>
 
----
+        <div class="question">
+            <h2>3. Cutting force is directly proportional to?</h2>
+            <div class="options">
+                <label><input type="radio" name="q3"> a: Sheet Area</label>
+                <label><input type="radio" name="q3"> b: Sheet Thickness</label>
+                <label><input type="radio" name="q3"> c: Modulus of Elasticity</label>
+                <label><input type="radio" name="q3"> d: Poisson's Ratio</label>
+            </div>
+        </div>
 
-## 2. The clearance in a shearing operation is the distance between:
+        <div class="question">
+            <h2>4. Which stage comes first in the shearing process?</h2>
+            <div class="options">
+                <label><input type="radio" name="q4"> a: Fracture</label>
+                <label><input type="radio" name="q4"> b: Plastic Deformation</label>
+                <label><input type="radio" name="q4"> c: Penetration</label>
+                <label><input type="radio" name="q4"> d: Elastic Recovery</label>
+            </div>
+        </div>
 
-- [ ] Punch and Stripper  
-- [ ] Punch cutting edge and Die cutting edge  
-- [ ] Die and Stripper  
-- [ ] Upper and Lower Die shoes  
+        <div class="question">
+            <h2>5. Excessive clearance results in?</h2>
+            <div class="options">
+                <label><input type="radio" name="q5"> a: Cleaner cuts</label>
+                <label><input type="radio" name="q5"> b: Reduced force</label>
+                <label><input type="radio" name="q5"> c: Formation of burrs</label>
+                <label><input type="radio" name="q5"> d: Tool breakage</label>
+            </div>
+        </div>
 
----
+        <button type="submit">Submit Quiz</button>
 
-## 3. Cutting force is directly proportional to:
+    </form>
+</div>
 
-- [ ] Sheet Area  
-- [ ] Sheet Thickness  
-- [ ] Modulus of Elasticity  
-- [ ] Poisson's Ratio  
-
----
-
-## 4. Which stage comes first in the shearing process?
-
-- [ ] Fracture  
-- [ ] Plastic Deformation  
-- [ ] Penetration  
-- [ ] Elastic Recovery  
-
----
-
-## 5. Excessive clearance results in:
-
-- [ ] Cleaner cuts  
-- [ ] Reduced force  
-- [ ] Formation of burrs  
-- [ ] Tool breakage  
-
----
-
-### ✅ Submit Quiz
+</body>
+</html>
