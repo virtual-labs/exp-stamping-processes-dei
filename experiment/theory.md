@@ -67,29 +67,27 @@ The cutting of metal involves stressing the material beyond its ultimate shear s
 
 ## 5. Force Calculations
 
-The maximum cutting force ($F_{max}$) is critical for selecting the press tonnage. It is calculated as:
+The maximum cutting force F_max is critical for selecting the press tonnage. It is calculated as:
 
-$$
-F_{max} = L \times t \times \tau_{max}
-$$
+F_max = L × t × τ_max
 
 Where:
 
-- $L$ = Perimeter length of the cut (mm)  
-- $t$ = Sheet thickness (mm)  
-- $\tau_{max}$ = Ultimate shear strength of the material (N/mm²)
+L = Perimeter length of the cut (mm)
+
+t = Sheet thickness (mm)
+
+τ_max = Ultimate shear strength of the material (N/mm²)
 
 ### Energy Calculation
 
 The energy required for the operation depends on the force-displacement curve. It can be approximated as:
 
-$$
-E = K \times F_{max} \times t
-$$
+E = K × F_max × t
 
 Where:
 
-- $K$ = Factor (typically 0.4 – 0.7) representing the percentage of penetration before fracture
+K = Factor (typically 0.4 – 0.7) representing the percentage of penetration before fracture
 
 ---
 
