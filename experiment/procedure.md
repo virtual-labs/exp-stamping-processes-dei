@@ -1,4 +1,4 @@
-## 5. Procedure
+## Procedure
 
 1. **Clean the Stamping Press and Work Area**  
    Ensure that the press bed, ram, and surrounding workspace are free from dust, metal scraps, oil spills, or previous material residues. This prevents improper seating of the die and ensures safe operation.
