@@ -6,12 +6,14 @@
       "answers": {
         "a": "Decreases",
         "b": "Increases",
-        "c": "Remains same"
+        "c": "Remains same",
+        "d": "Becomes zero"
       },
       "explanations": {
         "a": "Incorrect. Cutting force is directly proportional to sheet thickness.",
         "b": "Correct. As thickness increases, the cutting force increases proportionally.",
-        "c": "Incorrect. Force does not remain constant when thickness changes."
+        "c": "Incorrect. Force does not remain constant when thickness changes.",
+        "d": "Incorrect. Force cannot become zero during cutting."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -21,12 +23,14 @@
       "answers": {
         "a": "Excessive burr",
         "b": "Secondary shear / higher force",
-        "c": "Punch breaks immediately"
+        "c": "Punch breaks immediately",
+        "d": "Perfect smooth edge"
       },
       "explanations": {
         "a": "Incorrect. Excessive burr is usually caused by too large clearance.",
         "b": "Correct. Small clearance causes secondary shear and increases cutting force.",
-        "c": "Incorrect. While tool wear may increase, immediate punch breakage is unlikely."
+        "c": "Incorrect. While tool wear may increase, immediate punch breakage is unlikely.",
+        "d": "Incorrect. Too small clearance does not produce a perfect smooth edge."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -36,12 +40,14 @@
       "answers": {
         "a": "Stress-Strain Curve",
         "b": "Force-Displacement Curve",
-        "c": "Load-Time Curve"
+        "c": "Load-Time Curve",
+        "d": "Velocity-Time Curve"
       },
       "explanations": {
         "a": "Incorrect. Stress-strain curve represents material properties, not cutting energy directly.",
         "b": "Correct. The energy consumed in stamping is the area under the force-displacement curve.",
-        "c": "Incorrect. Load-time curve does not represent mechanical work directly."
+        "c": "Incorrect. Load-time curve does not represent mechanical work directly.",
+        "d": "Incorrect. Velocity-time curve represents motion, not cutting energy."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -51,12 +57,14 @@
       "answers": {
         "a": "Aluminum",
         "b": "Mild Steel",
-        "c": "Lead"
+        "c": "Lead",
+        "d": "Plastic"
       },
       "explanations": {
         "a": "Incorrect. Aluminum has lower shear strength than mild steel.",
         "b": "Correct. Mild steel has higher shear strength and requires greater cutting force.",
-        "c": "Incorrect. Lead is very soft and requires much lower force."
+        "c": "Incorrect. Lead is very soft and requires much lower force.",
+        "d": "Incorrect. Plastic generally requires lower force compared to mild steel."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -66,12 +74,14 @@
       "answers": {
         "a": "Lower than hard materials",
         "b": "Higher than hard materials",
-        "c": "Same as hard materials"
+        "c": "Same as hard materials",
+        "d": "Zero clearance"
       },
       "explanations": {
         "a": "Correct. Soft materials require smaller clearance compared to harder materials.",
         "b": "Incorrect. Hard materials generally require larger clearance.",
-        "c": "Incorrect. Clearance depends on material properties."
+        "c": "Incorrect. Clearance depends on material properties.",
+        "d": "Incorrect. Zero clearance is not practical in shearing operations."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
