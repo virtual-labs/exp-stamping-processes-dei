@@ -1,0 +1,95 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "number": 1,
+      "question": "1. In a blanking operation, the piece removed is considered?",
+      "answers": {
+        "a": "Scrap",
+        "b": "The useful part",
+        "c": "Waste material",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "Incorrect. In blanking, the removed portion is not scrap.",
+        "b": "Correct. In blanking, the removed portion is the required product, and the remaining sheet becomes scrap.",
+        "c": "Incorrect. The removed piece is not waste material in blanking.",
+        "d": "Incorrect. One of the options is correct."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "number": 2,
+      "question": "2. The clearance in a shearing operation is the distance between?",
+      "answers": {
+        "a": "Punch and Stripper",
+        "b": "Punch cutting edge and Die cutting edge",
+        "c": "Die and Stripper",
+        "d": "Upper and Lower Die shoes"
+      },
+      "explanations": {
+        "a": "Incorrect. Clearance is not measured between punch and stripper.",
+        "b": "Correct. Clearance is the gap between the punch cutting edge and the die cutting edge.",
+        "c": "Incorrect. Die and stripper distance is not called clearance.",
+        "d": "Incorrect. Upper and lower die shoes spacing is not clearance."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "number": 3,
+      "question": "3. Cutting force is directly proportional to?",
+      "answers": {
+        "a": "Sheet Area",
+        "b": "Sheet Thickness",
+        "c": "Modulus of Elasticity",
+        "d": "Poisson's Ratio"
+      },
+      "explanations": {
+        "a": "Incorrect. Cutting force depends on perimeter length, not total sheet area.",
+        "b": "Correct. Cutting force increases proportionally with sheet thickness.",
+        "c": "Incorrect. Modulus of elasticity does not directly determine cutting force.",
+        "d": "Incorrect. Poisson's ratio is unrelated to cutting force."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "number": 4,
+      "question": "4. Which stage comes first in the shearing process?",
+      "answers": {
+        "a": "Fracture",
+        "b": "Plastic Deformation",
+        "c": "Penetration",
+        "d": "Elastic Recovery"
+      },
+      "explanations": {
+        "a": "Incorrect. Fracture occurs after plastic deformation.",
+        "b": "Correct. Plastic deformation begins first after initial elastic deformation during shearing.",
+        "c": "Incorrect. Penetration occurs after deformation begins.",
+        "d": "Incorrect. Elastic recovery happens after load removal."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "number": 5,
+      "question": "5. Excessive clearance results in?",
+      "answers": {
+        "a": "Cleaner cuts",
+        "b": "Reduced force",
+        "c": "Formation of burrs",
+        "d": "Tool breakage"
+      },
+      "explanations": {
+        "a": "Incorrect. Excessive clearance does not produce cleaner cuts.",
+        "b": "Incorrect. While force may slightly reduce, the main issue is poor edge quality.",
+        "c": "Correct. Too much clearance causes rough edges and burr formation.",
+        "d": "Incorrect. Tool breakage is not the primary effect of excessive clearance."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
