@@ -11,7 +11,8 @@
         "d": "None of the above"
       },
       "correctAnswer": "b",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "explanation": "In blanking, the removed portion is the required product. The remaining sheet is scrap."
     },
     {
       "number": 2,
@@ -23,7 +24,8 @@
         "d": "Upper and Lower Die shoes"
       },
       "correctAnswer": "b",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "explanation": "Clearance is the gap between the punch cutting edge and the die cutting edge, which affects cut quality and force required."
     },
     {
       "number": 3,
@@ -35,7 +37,8 @@
         "d": "Poisson's Ratio"
       },
       "correctAnswer": "b",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "explanation": "Cutting force depends on perimeter length, sheet thickness, and shear strength. Greater thickness increases cutting force."
     },
     {
       "number": 4,
@@ -47,7 +50,8 @@
         "d": "Elastic Recovery"
       },
       "correctAnswer": "b",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "explanation": "In shearing, elastic deformation occurs first, followed by plastic deformation, then fracture."
     },
     {
       "number": 5,
@@ -59,7 +63,8 @@
         "d": "Tool breakage"
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "explanation": "Too much clearance causes rough edges and burr formation due to improper fracture alignment."
     }
   ]
 }
