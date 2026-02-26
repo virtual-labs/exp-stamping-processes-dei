@@ -2,37 +2,88 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. If material thickness increases, the required force:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Decreases",
+        "b": "Increases",
+        "c": "Remains same",
+        "d": "Becomes zero"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Cutting force is directly proportional to sheet thickness.",
+        "b": "Correct. As thickness increases, the cutting force increases proportionally.",
+        "c": "Incorrect. Force does not remain constant when thickness changes.",
+        "d": "Incorrect. Force cannot become zero during cutting."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2. What happens if clearance is too small?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Excessive burr",
+        "b": "Secondary shear / higher force",
+        "c": "Punch breaks immediately",
+        "d": "Perfect smooth edge"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Excessive burr is usually caused by too large clearance.",
+        "b": "Correct. Small clearance causes secondary shear and increases cutting force.",
+        "c": "Incorrect. While tool wear may increase, immediate punch breakage is unlikely.",
+        "d": "Incorrect. Too small clearance does not produce a perfect smooth edge."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Energy consumed is represented by area under:",
+      "answers": {
+        "a": "Stress-Strain Curve",
+        "b": "Force-Displacement Curve",
+        "c": "Load-Time Curve",
+        "d": "Velocity-Time Curve"
+      },
+      "explanations": {
+        "a": "Incorrect. Stress-strain curve represents material properties, not cutting energy directly.",
+        "b": "Correct. The energy consumed in stamping is the area under the force-displacement curve.",
+        "c": "Incorrect. Load-time curve does not represent mechanical work directly.",
+        "d": "Incorrect. Velocity-time curve represents motion, not cutting energy."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Which material generally requires higher force for same thickness?",
+      "answers": {
+        "a": "Aluminum",
+        "b": "Mild Steel",
+        "c": "Lead",
+        "d": "Plastic"
+      },
+      "explanations": {
+        "a": "Incorrect. Aluminum has lower shear strength than mild steel.",
+        "b": "Correct. Mild steel has higher shear strength and requires greater cutting force.",
+        "c": "Incorrect. Lead is very soft and requires much lower force.",
+        "d": "Incorrect. Plastic generally requires lower force compared to mild steel."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. Optimal clearance for soft materials is generally:",
+      "answers": {
+        "a": "Lower than hard materials",
+        "b": "Higher than hard materials",
+        "c": "Same as hard materials",
+        "d": "Zero clearance"
+      },
+      "explanations": {
+        "a": "Correct. Soft materials require smaller clearance compared to harder materials.",
+        "b": "Incorrect. Hard materials generally require larger clearance.",
+        "c": "Incorrect. Clearance depends on material properties.",
+        "d": "Incorrect. Zero clearance is not practical in shearing operations."
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
